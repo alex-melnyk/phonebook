@@ -1,0 +1,17 @@
+.error {
+  color: #EB4438;
+  padding: 16px 24px 16px 56px;
+  background-color: rgba(235, 68, 56, 0.16);
+  border-radius: 4px;
+  // margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  width: 32px;
+  height: 32px;
+}

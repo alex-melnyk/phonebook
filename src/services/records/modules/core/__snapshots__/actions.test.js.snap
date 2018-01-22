@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modal actions should create correctly 1`] = `
+Object {
+  "error": false,
+  "payload": undefined,
+  "type": "RECORDS_CORE_CREATE_SUCCESS",
+}
+`;
+
+exports[`modal actions should edit correctly 1`] = `
+Object {
+  "error": false,
+  "payload": undefined,
+  "type": "RECORDS_CORE_EDIT_SUCCESS",
+}
+`;
+
+exports[`modal actions should remove correctly 1`] = `
+Object {
+  "error": false,
+  "payload": undefined,
+  "type": "RECORDS_CORE_REMOVE",
+}
+`;

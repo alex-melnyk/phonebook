@@ -1,0 +1,50 @@
+.general {
+  padding: 15px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+.table {
+  th {
+    cursor: pointer;
+  }
+}
+
+.empty {
+  text-align: center;
+  font-style: italic;
+}
+
+.record {
+  td {
+    text-align: center;
+    padding: 15px;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+.inputWrap {
+  // height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.clear {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.sorted {
+  color: gray;
+}
